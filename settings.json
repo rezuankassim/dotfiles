@@ -1,0 +1,77 @@
+{
+    "git.ignoreMissingGitWarning": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.wordWrap": "on",
+    "explorer.openEditors.visible": 0,
+    "php-cs-fixer.config": "",
+    "php-cs-fixer.onsave": false,
+    "php-cs-fixer.lastDownload": 1633940969624,
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "workbench.colorTheme": "Palenight Italic",
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json",
+                "jsonc"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+        },
+        "css": [
+            "css",
+            "less",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "php",
+            "blade"
+        ]
+    },
+    "intelephense.files.exclude": [
+        "**/.git/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/CVS/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/vendor/**/{Tests,tests}/**",
+        "**/.vscode/.php_cs",
+    ],
+    /**
+    *   Silence the noise
+    **/
+    "workbench.activityBar.visible": false,
+    "workbench.editor.showTabs": false,
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": true,
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": null,
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "php-cs-fixer.exclude": [
+    
+    ],
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "emmet.showSuggestionsAsSnippets": true,
+    "tabnine.experimentalAutoImports": true,
+    "prettier.packageManager": "yarn",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "blade.format.enable": true,
+    "git.autofetch": true,
+    "prettier.configPath": "./.prettierrc",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.tabSize": 2,
+    // "workbench.iconTheme": "material-icon-theme",
+}
